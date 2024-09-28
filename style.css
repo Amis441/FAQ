@@ -1,0 +1,43 @@
+body {
+  /* background-color: #e7e0fa; */
+  background: linear-gradient(180deg , #f6f5fb, #dfd8f8);
+}
+.faq-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 5rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+  /* max-width: 1500px;  */
+  width: 100%;
+}
+.faq-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.illustration img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-left: -50px;
+
+  width: 100%; /* Ensure the image scales correctly */
+  object-fit: cover; /* Ensures the image fills its container */
+}
+.accordion-button:not(.collapsed) {
+  color: #5d2bc1;
+  background-color: #f1effd;
+}
+.accordion-item {
+  border: none;
+}
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh; /* Makes the container take full viewport height */
+}
